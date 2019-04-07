@@ -1,0 +1,41 @@
+[ {
+  "uid" : "5ac6e5a69e3e6c9d",
+  "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null",
+  "time" : {
+    "start" : 1554617295449,
+    "stop" : 1554617295519,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6a5e0ff5d899b37",
+  "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_uname_empty",
+  "time" : {
+    "start" : 1554617295549,
+    "stop" : 1554617295709,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "96bf6bff9662df1",
+  "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_success",
+  "time" : {
+    "start" : 1554617295299,
+    "stop" : 1554617295419,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1a5792553ec4e66",
+  "name" : "D:\\jiekou\\city\\testcase\\user.test_user_saveOrUpdateUser.Test_saveOrUpdateUser.test_saveOrUpdateUser_success",
+  "time" : {
+    "start" : 1554617295709,
+    "stop" : 1554617295839,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,73 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "修改密码",
+    "children" : [ {
+      "name" : "修改密码成功",
+      "children" : [ {
+        "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_success",
+        "uid" : "96bf6bff9662df1",
+        "parentUid" : "ce859a3182aeee36a3945dc1f2a3d03e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554617295299,
+          "stop" : 1554617295419,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null",
+        "uid" : "5ac6e5a69e3e6c9d",
+        "parentUid" : "ce859a3182aeee36a3945dc1f2a3d03e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554617295449,
+          "stop" : 1554617295519,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce859a3182aeee36a3945dc1f2a3d03e"
+    }, {
+      "name" : "修改密码失败",
+      "children" : [ {
+        "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_uname_empty",
+        "uid" : "f6a5e0ff5d899b37",
+        "parentUid" : "9961ad1ba9c3e3a288dcf97765b0e612",
+        "status" : "broken",
+        "time" : {
+          "start" : 1554617295549,
+          "stop" : 1554617295709,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9961ad1ba9c3e3a288dcf97765b0e612"
+    } ],
+    "uid" : "8b2d20bf24c43bb3adff22768f6f2128"
+  }, {
+    "name" : "添加用户信息",
+    "children" : [ {
+      "name" : "成功添加用户信息",
+      "children" : [ {
+        "name" : "D:\\jiekou\\city\\testcase\\user.test_user_saveOrUpdateUser.Test_saveOrUpdateUser.test_saveOrUpdateUser_success",
+        "uid" : "a1a5792553ec4e66",
+        "parentUid" : "f1ff718cc839142245222f97267e87df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554617295709,
+          "stop" : 1554617295839,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1ff718cc839142245222f97267e87df"
+    } ],
+    "uid" : "1e5fd5e1f8900900123c415a8093f279"
+  } ]
+}

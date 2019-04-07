@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcase.D:\jiekou\city\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd_success","120",""
+"passed","testcase.D:\jiekou\city\testcase\user.test_user_saveOrUpdateUser.Test_saveOrUpdateUser.test_saveOrUpdateUser_success","130",""
+"passed","testcase.D:\jiekou\city\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null","70",""
+"broken","testcase.D:\jiekou\city\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd_uname_empty","160",""

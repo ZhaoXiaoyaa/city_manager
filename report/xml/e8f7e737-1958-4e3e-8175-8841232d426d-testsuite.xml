@@ -1,0 +1,171 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554625134882" stop="1554625135672">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554625134882" status="passed" stop="1554625134993">
+      <name>D:\jiekou\city\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="修改密码"/>
+        <label name="story" value="修改密码成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135032" status="passed" stop="1554625135062">
+      <name>D:\jiekou\city\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="修改密码"/>
+        <label name="story" value="修改密码成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135093" status="passed" stop="1554625135102">
+      <name>D:\jiekou\city\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd_uname_empty</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="修改密码"/>
+        <label name="story" value="修改密码失败"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135102" status="passed" stop="1554625135133">
+      <name>D:\jiekou\city\testcase\sys.test_sys_login.Test_login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135142" status="passed" stop="1554625135172">
+      <name>D:\jiekou\city\testcase\sys.test_sys_login.Test_login.test_login_pwd_wrong</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135172" status="passed" stop="1554625135182">
+      <name>D:\jiekou\city\testcase\sys.test_sys_login.Test_login.test_login_uname_not_exist</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135182" status="failed" stop="1554625135412">
+      <name>D:\jiekou\city\testcase\sys.test_sys_login.Test_login.test_login_uname_empty</name>
+      <failure>
+        <message>AssertionError: assert 3010 == 301</message>
+        <stack-trace>self = &lt;testcase.sys.test_sys_login.Test_login object at 0x0000022B33DA9F98&gt;
+
+    def test_login_uname_empty(self):
+        data = {"userName": "",
+                "password": "123456"}
+        re_login = http.post("/sys/login", data)
+&gt;       assert re_login['code'] == 301
+E       assert 3010 == 301
+
+testcase\sys\test_sys_login.py:32: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135422" status="passed" stop="1554625135442">
+      <name>D:\jiekou\city\testcase\sys.test_sys_login.Test_login.test_login_uname_null</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135442" status="passed" stop="1554625135472">
+      <name>D:\jiekou\city\testcase\sys.test_sys_login.Test_login.test_login_pwd_empty</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135472" status="failed" stop="1554625135542">
+      <name>D:\jiekou\city\testcase\sys.test_sys_login.Test_login.test_login_pwd_null</name>
+      <failure>
+        <message>AssertionError: assert 500 == 410</message>
+        <stack-trace>self = &lt;testcase.sys.test_sys_login.Test_login object at 0x0000022B33DA53C8&gt;
+
+    def test_login_pwd_null(self):
+        data = {"userName": CommonData.mobile}
+        re_login = http.post("/sys/login", data)
+&gt;       assert re_login['code'] == 410
+E       assert 500 == 410
+
+testcase\sys\test_sys_login.py:54: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554625135552" status="passed" stop="1554625135672">
+      <name>D:\jiekou\city\testcase\user.test_user_saveOrUpdateUser.Test_saveOrUpdateUser.test_saveOrUpdateUser_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="添加用户信息"/>
+        <label name="story" value="成功添加用户信息"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17032-MainThread"/>
+        <label name="host" value="LAPTOP-AC039L9Q"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

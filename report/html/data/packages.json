@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_success",
+      "uid" : "96bf6bff9662df1",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554617295299,
+        "stop" : 1554617295419,
+        "duration" : 120
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null",
+      "uid" : "5ac6e5a69e3e6c9d",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554617295449,
+        "stop" : 1554617295519,
+        "duration" : 70
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_uname_empty",
+      "uid" : "f6a5e0ff5d899b37",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "broken",
+      "time" : {
+        "start" : 1554617295549,
+        "stop" : 1554617295709,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\jiekou\\city\\testcase\\user.test_user_saveOrUpdateUser.Test_saveOrUpdateUser.test_saveOrUpdateUser_success",
+      "uid" : "a1a5792553ec4e66",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554617295709,
+        "stop" : 1554617295839,
+        "duration" : 130
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}

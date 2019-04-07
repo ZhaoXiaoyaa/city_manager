@@ -1,0 +1,66 @@
+{
+  "uid" : "5ac6e5a69e3e6c9d",
+  "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null",
+  "fullName" : "testcase.D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null",
+  "historyId" : "27f83f683c3ce7268ec213a5260fe440",
+  "time" : {
+    "start" : 1554617295449,
+    "stop" : 1554617295519,
+    "duration" : 70
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改密码"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AC039L9Q"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "修改密码成功"
+  }, {
+    "name" : "thread",
+    "value" : "19176-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_id_null"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ac6e5a69e3e6c9d.json",
+  "parameterValues" : [ ]
+}

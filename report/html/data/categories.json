@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 411 == 200",
+      "children" : [ {
+        "name" : "D:\\jiekou\\city\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd_uname_empty",
+        "uid" : "f6a5e0ff5d899b37",
+        "parentUid" : "27fdb63db359f2228afe33b562c383e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1554617295549,
+          "stop" : 1554617295709,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27fdb63db359f2228afe33b562c383e9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
